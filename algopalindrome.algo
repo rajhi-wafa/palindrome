@@ -1,0 +1,15 @@
+ALGORITHM mot-palindrome
+VAR
+    str:string;
+BEGIN
+
+IF (str.length>=2 && str==inverce.str) THEN
+write("str est palindrome")
+ELSE IF (str.length==1||str==" ") THEN
+write("str n 'est pas un palindrome")
+    
+ELSE
+   
+    write( "str n est pas un palindrome")
+END_IF
+END
